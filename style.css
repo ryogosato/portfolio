@@ -28,10 +28,6 @@ li{
   font-size: 24px;
 }
 
-.profile-container{
-  display: flex;
-}
-
 .profile-header{
   text-align: center;
 }
@@ -39,3 +35,18 @@ li{
 h2{
   font-size: 80px;
 }
+.profile-container{
+  display: flex;
+}
+
+.profile-image{
+  margin-left: 20%;
+}
+
+#face-img{
+  border-radius: 90px;
+}
+
+.profile-text{
+  margin-left: 10%;
+
