@@ -56,6 +56,12 @@ h2{
   justify-content: space-around;
 }
 
+.skill-card{
+  background-color: aliceblue;
+  padding: 24px;
+  width: 20%;
+}
+
 .skill-title{
   font-size: 30px;
   text-align: center;
