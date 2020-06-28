@@ -18,13 +18,13 @@ h1{
   font-size: 80px;
 }
 
-.menu{
+ul{
   display: flex;
   justify-content: center;
   list-style: none;
 }
 
-li{
+.menu-list{
   margin: 24px;
   font-size: 24px;
 }
@@ -110,4 +110,18 @@ h2{
 
 .fa-twitter{
   font-size: 32px;
+}
+
+footer{
+  background-color: gray;
+}
+
+.footer-menu{
+  margin: 0;
+}
+
+.footer-list{
+  font-size: 16px;
+  margin: 32px;
+  padding-bottom: 64px;
 }
