@@ -11,7 +11,23 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+#global-nav {
+  background: #fff;
+  /* border-bottom: 1px solid #16244e;
+  border-top: 1px solid #16244e; */
+  width: 100%;
+}
+
+#global-nav.m_fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+menu{
+  padding-top: 0;
 }
 
 h1{  
