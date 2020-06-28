@@ -102,3 +102,12 @@ h2{
 .language{
   font-size: 14px;
 }
+
+.twitter{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.fa-twitter{
+  font-size: 32px;
+}
