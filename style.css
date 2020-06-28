@@ -17,7 +17,7 @@ h1{
   font-size: 80px;
 }
 
-ul{
+.menu{
   display: flex;
   justify-content: center;
   list-style: none;
@@ -28,14 +28,14 @@ li{
   font-size: 24px;
 }
 
-.profile-header{
+.menu-header{
   text-align: center;
 }
 
 h2{
   font-size: 80px;
 }
-.profile-container{
+.profile-content{
   display: flex;
 }
 
@@ -49,4 +49,29 @@ h2{
 
 .profile-text{
   margin-left: 10%;
+}
 
+.skill-content{
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-card{
+  background-color: aliceblue;
+  padding: 24px;
+  width: 20%;
+}
+
+.skill-title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.skill-language-content{
+  text-align: center;
+}
+
+.skill-list{
+  margin: 32px;
+  font-size: 24px;
+}
