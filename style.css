@@ -1,5 +1,6 @@
 ﻿html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: white;
@@ -41,9 +42,18 @@ ul{
 }
 
 .menu-list{
-  margin: 24px;
+  margin: 0 24px;
   font-size: 24px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
+
+.menu-list:hover {
+  color: skyblue;
+}
+
 
 .menu-header{
   text-align: center;
@@ -119,6 +129,14 @@ h2{
   font-size: 14px;
 }
 
+.url{
+  text-decoration: none;
+}
+
+#contact-box{
+  text-align: center;
+}
+
 .twitter{
   text-align: center;
   margin-bottom: 40px;
@@ -126,6 +144,7 @@ h2{
 
 .fa-twitter{
   font-size: 32px;
+  color: skyblue;
 }
 
 footer{
