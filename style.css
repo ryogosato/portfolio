@@ -55,3 +55,17 @@ h2{
   display: flex;
   justify-content: space-around;
 }
+
+.skill-title{
+  font-size: 30px;
+  text-align: center;
+}
+
+.skill-language-content{
+  text-align: center;
+}
+
+.skill-list{
+  margin: 32px;
+  font-size: 24px;
+}
