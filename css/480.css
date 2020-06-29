@@ -186,9 +186,10 @@
   .works-content{
     display: flex;
     justify-content: space-around;
+    flex-direction: column; /* 縦並び */
   }
   .works-card{
-    width: 25%;
+    width: 100%;
     text-align: center;
     background-color: aliceblue;
     padding: 18px;
