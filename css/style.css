@@ -6,6 +6,7 @@
   background-color: white;
 }
 
+
 /* ---------------------------------------------
 
 共通
@@ -23,6 +24,7 @@ p{
   margin-top: 0;
   margin-bottom: 48px;
 }
+
 
 /* ---------------------------------------------
 
@@ -76,23 +78,18 @@ menu{
 .box{
   padding-top: 36px;
 }
-
 .menu-header{
   text-align: center;
 }
-
 .profile-content{
   display: flex;
 }
-
 .profile-image{
   margin-left: 20%;
 }
-
 #face-img{
   border-radius: 90px;
 }
-
 .profile-text{
   margin-left: 10%;
 }
@@ -128,7 +125,6 @@ menu{
 .skill-title_w{
   font-weight: bolder;
 }
-
 /* --------- スキルレート --------- */
 .rate {
   position: relative;
