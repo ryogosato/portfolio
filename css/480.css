@@ -43,6 +43,9 @@
   .profile-image{
     margin: 0 auto;
   }
+  .profile-text{
+    margin: 10%;
+  }
   
   
   /* ---------------------------------------------
@@ -89,5 +92,5 @@
     margin: 0 16px;
     font-size: 1px;
   }
-  
+
 }
