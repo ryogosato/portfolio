@@ -198,17 +198,35 @@ h2{
 }
 
 .contact-header-title{
-  margin-bottom: 0;
+  margin-bottom: 48px;
 }
 
-.twitter{
+.contact-sns{
   text-align: center;
   margin-bottom: 40px;
 }
 
-.fa-twitter{
+.sns{
+  text-decoration: none;
+}
+
+.fab{
   font-size: 32px;
+  margin: 24px 24px 24px 0;
+}
+
+.fa-twitter{
   color: skyblue;
+}
+
+.fa-github{
+  color: black;
+}
+
+#qiita{
+  font-size: 32px;
+  color: lawngreen;
+  text-decoration: none;
 }
 
 footer{
