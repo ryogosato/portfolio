@@ -6,6 +6,36 @@
   background-color: white;
 }
 
+/* ---------------------------------------------
+
+共通
+
+------------------------------------------------ */
+h1{  
+  font-size: 80px;
+}
+
+h2{
+  font-size: 80px;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+
+/* ---------------------------------------------
+
+  ヘッダー
+
+------------------------------------------------ */
 header{
   background-image: url(img/blue-mountian.jpeg);
   height: 480px;
@@ -14,6 +44,12 @@ header{
   align-items: center;
 }
 
+
+/* ---------------------------------------------
+
+  メニュー
+
+------------------------------------------------ */
 #global-nav {
   background: #fff;
   width: 100%;
@@ -29,16 +65,6 @@ menu{
   padding-top: 0;
 }
 
-h1{  
-  font-size: 80px;
-}
-
-ul{
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
 .menu-list{
   margin: 0 24px;
   font-size: 24px;
@@ -52,6 +78,12 @@ ul{
   color: skyblue;
 }
 
+
+/* ---------------------------------------------
+
+  プロフィール
+
+------------------------------------------------ */
 .box{
   padding-top: 36px;
 }
@@ -60,9 +92,6 @@ ul{
   text-align: center;
 }
 
-h2{
-  font-size: 80px;
-}
 .profile-content{
   display: flex;
 }
@@ -79,37 +108,39 @@ h2{
   margin-left: 10%;
 }
 
+
+/* ---------------------------------------------
+
+  スキル
+
+------------------------------------------------ */
 .skill-content{
   display: flex;
   justify-content: space-around;
 }
-
 .skill-card{
   background-color: aliceblue;
   padding: 24px;
   width: 25%;
 }
-
 .skill-title{
   font-size: 30px;
   text-align: center;
 }
-
 .skill-language-content{
   text-align: center;
   display: flex;
   justify-content: space-around;
 }
-
 .skill-list{
   margin: 24px;
   font-size: 24px;
 }
-
 .skill-title_w{
   font-weight: bolder;
 }
 
+/* --------- スキルレート --------- */
 .rate {
   position: relative;
   display: block;
@@ -133,107 +164,105 @@ h2{
   overflow: hidden;
   white-space: nowrap;
 }
-
 .rate0:after {
   width: 0;
 }
-
 .rate0-5:after {
   width: 12px;
 }
-
 .rate1:after {
   width: 24px;
 }
-
 .rate1-5:after {
   width: 36px;
 }
-
 .rate2:after {
   width: 48px;
 }
-
 .rate2-5:after {
   width: 60px;
 }
-
 .rate3:after {
   width: 72px;
 }
 
+
+/* ---------------------------------------------
+
+  ワークス
+
+------------------------------------------------ */
 .works-content{
   display: flex;
   justify-content: space-around;
 }
-
 .works-card{
   width: 20%;
   text-align: center;
   background-color: aliceblue;
   padding: 18px;
 }
-
 .works-title{
   font-size: 24px;
   font-weight: bolder;
   margin-bottom: 8px;
 }
-
 .works-description{
   font-size: 14px;
 }
-
 .language{
   font-size: 14px;
 }
-
 .url{
   text-decoration: none;
   font-size: 12px;
 }
 
+
+/* ---------------------------------------------
+
+  コンタクト
+
+------------------------------------------------ */
 #contact-box{
   text-align: center;
 }
-
 .contact-header-title{
   margin-bottom: 48px;
 }
-
 .contact-sns{
   text-align: center;
   margin-bottom: 40px;
 }
-
 .sns{
   text-decoration: none;
 }
-
 .fab{
   font-size: 32px;
   margin: 24px 24px 24px 0;
 }
-
 .fa-twitter{
   color: skyblue;
 }
-
 .fa-github{
   color: black;
 }
-
 #qiita{
   font-size: 32px;
   color: lawngreen;
   text-decoration: none;
 }
 
+
+/* ---------------------------------------------
+
+  フッター
+
+------------------------------------------------ */
 footer{
   background-color: gray;
   padding:8px 0 64px;
 }
-
 .footer-list{
   margin: 0 32px;
   font-size: 16px;
@@ -242,18 +271,11 @@ footer{
   transition: all 0.3s ease 0s;
   cursor: pointer;
 }
-
-p{
-  margin-top: 0;
-  margin-bottom: 48px;
-}
-
-
-.menu-list{
+/* .menu-list{
   margin: 0 24px;
   font-size: 24px;
   text-decoration: none;
   color: black;
   transition: all 0.3s ease 0s;
   cursor: pointer;
-}
+} */
