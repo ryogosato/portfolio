@@ -16,8 +16,6 @@ header{
 
 #global-nav {
   background: #fff;
-  /* border-bottom: 1px solid #16244e;
-  border-top: 1px solid #16244e; */
   width: 100%;
 }
 
@@ -214,19 +212,33 @@ h2{
 
 footer{
   background-color: gray;
+  padding:8px 0 64px;
 }
 
 .footer-menu{
-  margin: 0;
+  /* margin: 0; */
 }
 
 .footer-list{
+  margin: 0 32px;
   font-size: 16px;
-  margin: 32px;
-  padding-bottom: 64px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 p{
   margin-top: 0;
   margin-bottom: 48px;
+}
+
+
+.menu-list{
+  margin: 0 24px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
