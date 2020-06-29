@@ -115,6 +115,7 @@
     background-color: aliceblue;
     padding: 24px;
     width: 100%;
+    margin-bottom: 24px;
   }
   .skill-title{
     font-size: 30px;
@@ -193,6 +194,7 @@
     text-align: center;
     background-color: aliceblue;
     padding: 18px;
+    margin-bottom: 24px;
   }
   .works-title{
     font-size: 24px;
