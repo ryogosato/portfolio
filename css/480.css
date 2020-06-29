@@ -84,10 +84,12 @@
   
   .profile-content{
     display: flex;
+    flex-direction: column; /* 縦並び */
   }
   
   .profile-image{
-    margin-left: 20%;
+    /* margin-left: 20%; */
+    margin: 0 auto;
   }
   
   #face-img{
@@ -95,7 +97,7 @@
   }
   
   .profile-text{
-    margin-left: 10%;
+    margin: 10%;
   }
   
   
