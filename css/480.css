@@ -258,8 +258,8 @@
     padding:8px 0 64px;
   }
   .footer-list{
-    margin: 0 32px;
-    font-size: 16px;
+    margin: 0 16px;
+    font-size: 1px;
     text-decoration: none;
     color: black;
     transition: all 0.3s ease 0s;
