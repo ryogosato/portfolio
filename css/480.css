@@ -109,11 +109,12 @@
   .skill-content{
     display: flex;
     justify-content: space-around;
+    flex-direction: column; /* 縦並び */
   }
   .skill-card{
     background-color: aliceblue;
     padding: 24px;
-    width: 27%;
+    width: 100%;
   }
   .skill-title{
     font-size: 30px;
