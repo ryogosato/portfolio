@@ -1,5 +1,6 @@
 ﻿html, body {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   background-color: white;
@@ -11,7 +12,21 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
+}
 
+#global-nav {
+  background: #fff;
+  width: 100%;
+}
+
+#global-nav.m_fixed {
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+
+menu{
+  padding-top: 0;
 }
 
 h1{  
@@ -25,8 +40,20 @@ ul{
 }
 
 .menu-list{
-  margin: 24px;
+  margin: 0 24px;
   font-size: 24px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.menu-list:hover {
+  color: skyblue;
+}
+
+.box{
+  padding-top: 36px;
 }
 
 .menu-header{
@@ -60,7 +87,7 @@ h2{
 .skill-card{
   background-color: aliceblue;
   padding: 24px;
-  width: 20%;
+  width: 25%;
 }
 
 .skill-title{
@@ -70,11 +97,69 @@ h2{
 
 .skill-language-content{
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .skill-list{
-  margin: 32px;
+  margin: 24px;
   font-size: 24px;
+}
+
+.skill-title_w{
+  font-weight: bolder;
+}
+
+.rate {
+  position: relative;
+  display: block;
+  width: 72px;
+  height: 24px;
+  padding: 6px;
+}
+.rate:before, .rate:after {
+  text-align: center;
+  position: absolute;
+  content: '★★★';
+  display: block;
+  height: 24px;
+  line-height: 24px;
+}
+.rate:before {
+  color: #ddd;
+}
+.rate:after {
+  color: #ffa500;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.rate0:after {
+  width: 0;
+}
+
+.rate0-5:after {
+  width: 12px;
+}
+
+.rate1:after {
+  width: 24px;
+}
+
+.rate1-5:after {
+  width: 36px;
+}
+
+.rate2:after {
+  width: 48px;
+}
+
+.rate2-5:after {
+  width: 60px;
+}
+
+.rate3:after {
+  width: 72px;
 }
 
 .works-content{
@@ -103,25 +188,72 @@ h2{
   font-size: 14px;
 }
 
-.twitter{
+.url{
+  text-decoration: none;
+  font-size: 12px;
+}
+
+#contact-box{
+  text-align: center;
+}
+
+.contact-header-title{
+  margin-bottom: 48px;
+}
+
+.contact-sns{
   text-align: center;
   margin-bottom: 40px;
 }
 
-.fa-twitter{
+.sns{
+  text-decoration: none;
+}
+
+.fab{
   font-size: 32px;
+  margin: 24px 24px 24px 0;
+}
+
+.fa-twitter{
+  color: skyblue;
+}
+
+.fa-github{
+  color: black;
+}
+
+#qiita{
+  font-size: 32px;
+  color: lawngreen;
+  text-decoration: none;
 }
 
 footer{
   background-color: gray;
-}
-
-.footer-menu{
-  margin: 0;
+  padding:8px 0 64px;
 }
 
 .footer-list{
+  margin: 0 32px;
   font-size: 16px;
-  margin: 32px;
-  padding-bottom: 64px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+
+.menu-list{
+  margin: 0 24px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
