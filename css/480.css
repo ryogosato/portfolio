@@ -1,12 +1,5 @@
 @media screen and (max-width: 480px){ 
-  html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-  }
-  
+
   /* ---------------------------------------------
   
   共通
@@ -96,4 +89,5 @@
     margin: 0 16px;
     font-size: 1px;
   }
+  
 }
