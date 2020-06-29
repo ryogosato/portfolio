@@ -57,8 +57,8 @@
     padding-top: 0;
   }
   .menu-list{
-    margin: 0 24px;
-    font-size: 24px;
+    margin: 0 8px;
+    font-size: 1px;
     text-decoration: none;
     color: black;
     transition: all 0.3s ease ; /* 0.3秒かけて緩やかに変化 */
