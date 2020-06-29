@@ -14,17 +14,14 @@
 h1{  
   font-size: 80px;
 }
-
 h2{
   font-size: 80px;
 }
-
 ul{
   display: flex;
   justify-content: center;
   list-style: none;
 }
-
 p{
   margin-top: 0;
   margin-bottom: 48px;
@@ -37,7 +34,7 @@ p{
 
 ------------------------------------------------ */
 header{
-  background-image: url(img/blue-mountian.jpeg);
+  background-image: url(../img/blue-mountian.jpeg);
   height: 480px;
   display: flex;
   justify-content: center;
