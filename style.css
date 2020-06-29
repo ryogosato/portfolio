@@ -121,7 +121,7 @@ menu{
 .skill-card{
   background-color: aliceblue;
   padding: 24px;
-  width: 25%;
+  width: 27%;
 }
 .skill-title{
   font-size: 30px;
@@ -145,16 +145,14 @@ menu{
   position: relative;
   display: block;
   width: 72px;
-  height: 24px;
-  padding: 6px;
+  height: 36px;
 }
 .rate:before, .rate:after {
   text-align: center;
   position: absolute;
   content: '★★★';
   display: block;
-  height: 24px;
-  line-height: 24px;
+  line-height: 36px;
 }
 .rate:before {
   color: #ddd;
