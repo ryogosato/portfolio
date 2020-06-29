@@ -190,6 +190,7 @@ h2{
 
 .url{
   text-decoration: none;
+  font-size: 12px;
 }
 
 #contact-box{
@@ -213,10 +214,6 @@ h2{
 footer{
   background-color: gray;
   padding:8px 0 64px;
-}
-
-.footer-menu{
-  /* margin: 0; */
 }
 
 .footer-list{
