@@ -19,6 +19,7 @@ ul{
   display: flex;
   justify-content: center;
   list-style: none;
+  padding-inline-start: 0;
 }
 p{
   margin-top: 0;
@@ -245,6 +246,9 @@ menu{
 footer{
   background-color: gray;
   padding:8px 0 64px;
+}
+.footer-menu{
+  text-align: center;
 }
 .footer-list{
   margin: 0 32px;
